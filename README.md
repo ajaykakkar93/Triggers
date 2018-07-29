@@ -4,3 +4,4 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLYjPUKwx_Zbf6ct3AH510CVvq14caZxYi" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 [![Watch the video]](https://www.youtube.com/embed/videoseries?list=PLYjPUKwx_Zbf6ct3AH510CVvq14caZxYi)
+[![Watch the video](https://img.youtube.com/vi/PLYjPUKwx_Zbf6ct3AH510CVvq14caZxYi/0.jpg)](https://www.youtube.com/embed/videoseries?list=PLYjPUKwx_Zbf6ct3AH510CVvq14caZxYi)
