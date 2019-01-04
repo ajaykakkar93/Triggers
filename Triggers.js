@@ -3,8 +3,8 @@ function ( qlik) {
 	function Action_field(app,Objlayout){
 		//console.log(Objlayout);
 		$.each(Objlayout.trigger,function(k,layout){
-			console.log(layout.condition);
-			if(layout.condition == 'true'){
+			//console.log(layout.condition);
+			if(layout.condition == 'true' || layout.condition){
 				switch (layout.Action) {
 					case 'selectMatch':
 						if(layout.ToggleSelection){
@@ -51,8 +51,8 @@ function ( qlik) {
 	
 	function Action_variable(app,Objlayout){
 		$.each(Objlayout.trigger_var,function(k,layout){
-		//console.log(layout.condition,layout.variabletype);
-			if(layout.condition == 'true'){
+			console.log(layout.condition,layout.variabletype);
+			if(layout.condition == 'true' || layout.condition){
 				switch (layout.variabletype) {
 					case '1':
 						console.log('Expr');
@@ -249,9 +249,6 @@ function ( qlik) {
 			//$element.html( "Triggers" );
 			//needed for export
 			//return qlik.Promise.resolve();
-		},
-		resize: function($element){
-			
 		}
 	};
 
